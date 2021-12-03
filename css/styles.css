@@ -1,22 +1,15 @@
 @import "../imports/variables.css";
 
-* {
-    margin: 0;
-    padding: 0%;
-    box-sizing: border-box;
-}
-
 body {
     font-family: var(--text-body), Arial, Helvetica, sans-serif;
     min-height: 100vh;
     margin: 0px;
+    padding: 0px;
 }
 
 h2 {
-    font-family: var(--text-h2);
+    font-family: var(--text-h2), Arial, Helvetica, sans-serif;
 }
-
-
 
 /* Logo text */
 .header-nav a,
@@ -46,10 +39,6 @@ a:visited {
     z-index 3;
 }
 
-.header-nav a {
-    font-size: 1.4em;
-}
-
 .header-nav ul {
     margin: 10px;
     padding: 0;
@@ -58,9 +47,14 @@ a:visited {
     background-color: var(--background-nav);
 }
 
+.header-nav a {
+    font-size: 1.4em;
+}
+
 .header-nav ul a {
     text-align: center;
     display: block;
+    font-size: 1.8em;
     padding: 20px;
     text-decoration: none;
 }
@@ -124,8 +118,7 @@ a:visited {
 
 .header-nav .menu-button:checked ~ .menu {
     display: block;
-    max-height: 500px;
-
+    max-height: 100vh;
 }
 
 .header-nav .menu-button:checked ~ .menu-icon .nav-icon {
@@ -140,12 +133,21 @@ a:visited {
     top: 0;
 }
 
-@media (min-width: 800px) {
+#a-explore {
+    margin-top: 100px;
+}
+
+#a-get-involved {
+    margin-bottom: 100%;
+}
+
+@media (min-width: 820px) {
     .header-nav .logo {
         margin: 10px 0px 0px 10px;
         width: 65px;
     }
 
+    .header-nav ul a,
     .header-nav a {
         font-size: 1.4em;
     }
@@ -156,6 +158,14 @@ a:visited {
 
     .header-nav li a {
         padding: 19px 7px;
+    }
+
+    #a-explore {
+        margin-top: 0px;
+    }
+
+    #a-get-involved {
+        margin-bottom: 0px;
     }
 
     .header-nav ul a:hover {
