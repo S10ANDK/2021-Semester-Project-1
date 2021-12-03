@@ -25,20 +25,20 @@ a:visited {
 
 #community {
     position: fixed;
-    transform: translateY(17px);
-    margin-left: 25px;
+    transform: translateY(18px);
+    margin-left: 32px;
 }
 
 #science-museum {
     position: fixed;
-    transform: translateY(37px);
-    margin-left: 7px;
+    transform: translateY(38px);
+    margin-left: 14px;
 }
 /*-----------------------*/
 
 .header-nav {
     background: var(--background-nav);
-    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    box-shadow: 1px 1px 5px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
     z-index 3;
@@ -62,15 +62,9 @@ a:visited {
 .header-nav .logo {
     float: left;
     display: block;
-    padding: 10px;
-    margin-top: 4px;
-    width: 70px;
+    margin: 10px 0px 0px 10px;
+    width: 53px;
     height: auto;
-}
-
-.header-nav ul a:hover {
-    text-decoration: underline;
-    text-underline-offset: 2px;
 }
 
 .header-nav .menu {
@@ -80,7 +74,8 @@ a:visited {
 }
 
 .header-nav .menu-icon {
-    padding: 28px 20px;
+    padding: 25px 20px;
+    margin: 11px 5px 0px 0px;
     position: relative;
     float: right;
     cursor: pointer
@@ -89,8 +84,8 @@ a:visited {
 .header-nav .menu-icon .nav-icon {
     background: #333;
     display: block;
-    height: 2px;
-    width: 18px;
+    height: 3px;
+    width: 25px;
     position: relative;
     transition: .2s ease-out;
 }
@@ -103,7 +98,7 @@ a:visited {
     transition: all .2s ease-out;
     height: 100%;
     width: 100%;
-    top: 5px;
+    top: 8px;
 }
 
 .header-nav .menu-icon .nav-icon:after {
@@ -114,7 +109,7 @@ a:visited {
     transition: all .2 ease-out;
     height: 100%;
     width: 100%;
-    top: -5px;
+    top: -8px;
 }
 
 .header-nav .menu-button {
@@ -124,6 +119,7 @@ a:visited {
 .header-nav .menu-button:checked ~ .menu {
     display: block;
     max-height: 300px;
+
 }
 
 .header-nav .menu-button:checked ~ .menu-icon .nav-icon {
@@ -138,13 +134,30 @@ a:visited {
     top: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
+    .header-nav .logo {
+        margin: 10px 0px 0px 10px;
+    }
+
+    #community {
+        margin-left: 50px;
+    }
+    
+    #science-museum {
+        margin-left: 32px;
+    }
+
     .header-nav li {
         float: left;
     }
 
     .header-nav li a {
-        padding: 20px 30px;
+        padding: 19px 22px;
+    }
+
+    .header-nav ul a:hover {
+        text-decoration: underline;
+        text-underline-offset: 2px;
     }
 
     .header-nav .menu {
@@ -155,11 +168,5 @@ a:visited {
 
     .header-nav .menu-icon {
         display: none;
-    }
-
-    .header-nav ul a {
-        display: block;
-        padding: 10px;
-        text-decoration: none;
     }
 }
