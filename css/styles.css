@@ -67,7 +67,7 @@ a:visited {
     height: auto;
 }
 
-.header-nav .menu {
+.header-nav .nav-links {
     clear: both;
     max-height: 0px;
     transition: max-height .2s ease-out;
@@ -116,7 +116,7 @@ a:visited {
     display: none;
 }
 
-.header-nav .menu-button:checked ~ .menu {
+.header-nav .menu-button:checked ~ .nav-links {
     display: block;
     max-height: 100vh;
 }
@@ -173,7 +173,7 @@ a:visited {
         text-underline-offset: 2px;
     }
 
-    .header-nav .menu {
+    .header-nav .nav-links {
         clear: none;
         float: right;
         max-height: none;
