@@ -21,7 +21,7 @@ a:visited {
 #community {
     position: fixed;
     transform: translateY(18px);
-    margin-left: 32px;
+    margin-left: 39px;
 }
 
 #science-museum {
@@ -36,7 +36,7 @@ a:visited {
     box-shadow: 1px 1px 5px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
-    z-index 3;
+    z-index: 3;
 }
 
 .header-nav ul {
@@ -192,12 +192,24 @@ a:visited {
 
 @media (min-width: 1100px) {
     #community {
-        transform: translateY(28px);
+        transform: translateY(29px);
         margin-left: 30px;
     }
     
     #science-museum {
-        transform: translateY(28px);
-        margin-left: 135px;
+        transform: translateY(29px);
+        margin-left: 134px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .header-nav ul {
+        margin-right: 100px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .header-nav ul {
+        margin-right: 200px;
     }
 }
