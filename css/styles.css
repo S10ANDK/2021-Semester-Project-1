@@ -67,7 +67,7 @@ nav ul a {
     height: auto;
 }
 
-.nav-links {
+.nav-ul {
     clear: both;
     max-height: 0px;
     transition: 0.2s ease-out;
@@ -116,7 +116,7 @@ nav ul a {
     display: none;
 }
 
-.menu-button:checked ~ .nav-links {
+.menu-button:checked ~ .nav-ul {
     display: block;
     max-height: 100vh;
 }
@@ -125,12 +125,13 @@ nav ul a {
     background: transparent;
 }
 .menu-button:checked ~ .menu-icon .nav-icon:before {
-    transform: rotate(-45deg);
     top: 0;
+    transform: rotate(-45deg);
 }
 .menu-button:checked ~ .menu-icon .nav-icon:after {
-    transform: rotate(45deg);
     top: 0;
+    transform: rotate(45deg);
+
 }
 
 #a-explore {
@@ -154,7 +155,15 @@ nav ul a {
 
     nav li {
         float: left;
+        overflow: hidden;
     }
+
+    nav li a::before {
+        content: "";
+        padding: 10px;
+        height: 10px;
+
+    } 
 
     nav li a {
         padding: 19px 7px;
@@ -168,12 +177,7 @@ nav ul a {
         margin-bottom: 0px;
     }
 
-    nav ul a:hover {
-        text-decoration: underline;
-        text-underline-offset: 2px;
-    }
-
-    .nav-links {
+    .nav-ul {
         clear: none;
         float: right;
         max-height: none;
@@ -181,6 +185,32 @@ nav ul a {
 
     .menu-icon {
         display: none;
+    }
+
+    .hover-underline-effect {
+        display: inline-block;
+        position: relative;
+        padding-bottom: 2px;
+    }
+    
+    .hover-underline-effect::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0%;
+        padding: 0px;
+        background-color: #000;
+        transition: 0.225s ease-out;
+    }
+    
+    .hover-underline-effect:hover::before {
+        width: 100%;
+        padding: 1px;
+    }
+
+    .hover-underline-effect:hover {
+        opacity: 70%;
     }
 }
 
@@ -204,7 +234,7 @@ nav ul a {
 
 @media (min-width: 1280px) {
     nav ul {
-        margin-right: 100px;
+        margin-right: 80px;
     }
 }
 
@@ -212,4 +242,5 @@ nav ul a {
     nav ul {
         margin-right: 200px;
     }
+
 }
