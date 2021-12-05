@@ -234,13 +234,13 @@ nav a {
 }
 
 @media (min-width: 1400px) {
-    nav ul {
+    .nav-ul {
         margin-right: 80px;
     }
 }
 
 @media (min-width: 1600px) {
-    nav ul {
+    .nav-ul {
         margin-right: 200px;
     }
 }
