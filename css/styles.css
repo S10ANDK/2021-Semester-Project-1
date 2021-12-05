@@ -22,13 +22,13 @@ a:visited {
 
 #community {
     position: fixed;
-    transform: translateY(12px);
+    transform: translateY(14px);
     margin-left: 40px;
 }
 
 #science-museum {
     position: fixed;
-    transform: translateY(37px);
+    transform: translateY(39px);
     margin-left: 14px;
 }
 /*-----------------------*/
@@ -51,7 +51,7 @@ nav {
 }
 
 nav a {
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 .nav-ul a {
