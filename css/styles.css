@@ -13,27 +13,6 @@ h2 {
     font-size: 1.4em;
 }
 
-.footer-header {
-    font-size: 1.2em;
-}
-
-.opening-hours {
-    margin: 50px auto 0px 80px;
-}
-
-.opening-hours p {
-    font-size: 0.9em;
-    margin: 20px auto;
-}
-
-.location {
-    margin: 25px auto 60px 80px;
-}
-
-.footer-nav {
-    display: none;
-}
-
 nav a,
 a:visited {
     text-decoration: none;
@@ -173,6 +152,57 @@ footer {
     background: var(--background-footer);
     display: flex;
     flex-direction: column;
+}
+
+.footer-header {
+    font-size: 1.2em;
+}
+
+.opening-hours {
+    margin: 40px auto 0px 75px;
+}
+
+.opening-hours p {
+    font-size: 0.9em;
+    margin: 20px auto;
+}
+
+.location {
+    margin: 30px auto 60px 75px;
+}
+
+.location p {
+    margin: 0px auto;
+}
+
+#adress {
+    margin: 10px auto 0px;
+}
+
+#postcode-city {
+    margin: 0px;
+}
+
+.footer-links {
+    margin-top: 25px;
+}
+
+.footer-links a {
+    display: block;
+    font-size: 1.2em;
+    color: #FFF;
+    padding: 10px 0px;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.footer-links a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-nav {
+    display: none;
 }
 
 @media (min-width: 1180px) {
