@@ -10,6 +10,10 @@
     transform: translate(-50%, -50%);
 }
 
+main {
+    line-height: 0px;
+}
+
 .explore-together__image {
     width: 100%;
     height: 200px;
