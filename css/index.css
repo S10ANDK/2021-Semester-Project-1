@@ -1,17 +1,21 @@
 @import "../imports/variables.css";
 
-.header h1 {
-    font-size: 2em;
+main {
+    line-height: 0px;
+}
+
+.explore-together {
+    position: relative;
+}
+
+.explore-together h1 {
+    font-size: 1.75em;
     color: #FFF;
     position: absolute;
     text-align: center;
-    top: 48%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-main {
-    line-height: 0px;
 }
 
 .explore-together__image {

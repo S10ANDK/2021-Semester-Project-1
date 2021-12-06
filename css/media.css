@@ -1,0 +1,196 @@
+@media (min-width: 410px) {
+    .explore-together h1 {
+        font-size: 2em;
+
+    }
+}
+
+@media (min-width: 510px) {
+    .explore-together h1 {
+        font-size: 2.5em;
+        top: 38%;
+    }
+}
+
+@media (min-width: 600px) {
+    .footer-container {
+        flex-direction: row;
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .location {
+        flex: 0.9;
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 850px) {
+    .explore-together h1 {
+        font-size: 3.2em;
+        top: 41%;
+    }
+
+    .explore-together__image {
+        height: 300px;
+    }
+}
+
+@media (min-width: 1180px) {
+    .logo {
+        margin: 10px 5px 8px 10px;
+        width: 75px;
+    }
+
+    #community {
+        transform: translateY(17px);
+    }
+    
+    #science-museum {
+        transform: translateY(43px);
+    }
+
+    nav {
+        height: 100px;
+    }
+
+    nav a {
+        font-size: 1.8em;
+    }
+
+    .nav-ul a {
+        font-size: 1.7em;
+    }
+
+    nav li {
+        float: left;
+        overflow: hidden;
+    }
+
+    nav li a::before {
+        content: "";
+        padding: 10px;
+        height: 10px;
+
+    } 
+
+    nav li a {
+        padding: 19px 7px;
+    }
+
+    #a-explore {
+        margin-top: 0px;
+    }
+
+    #a-get-involved {
+        margin-bottom: 0px;
+    }
+
+    .nav-ul {
+        clear: none;
+        float: right;
+        max-height: none;
+        margin-top: 13px;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .hover-underline-effect {
+        display: inline-block;
+        position: relative;
+        padding-bottom: 2px;
+    }
+    
+    .hover-underline-effect::before,
+    .footer-nav-effect::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0%;
+        padding: 0px;
+        background-color: #000;
+        transition: 0.225s ease-out;
+    }
+    
+    .hover-underline-effect:hover::before {
+        width: 100%;
+        padding: 1.5px;
+    }
+
+    .hover-underline-effect:hover {
+        opacity: 70%;
+    }
+
+    .footer-nav-effect::before {
+        background-color: #FFF;
+    }
+
+    .footer-nav-effect:hover {
+        opacity: 100%;
+    }
+
+    .footer-container {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .footer-nav {
+        display: inline-block;
+        flex: 0.65;
+    }
+
+    .opening-hours {
+        margin-bottom: 50px;
+    }
+
+    .location {
+        flex: 1;
+    }
+
+    .footer-nav {
+        margin: 40px auto;
+    }
+
+    .footer-nav ul {
+        list-style: none;
+        margin: 0px auto;
+    }
+
+    .footer-nav li {
+        margin: 30px auto;
+    }
+
+    #footer-link-home {
+        margin-top: 12px;
+    }
+
+    .footer-nav a {
+        color: #FFF;
+        font-size: 1.4em;
+        text-decoration: none;
+    }
+}
+
+@media (min-width: 1400px) {
+    .nav-ul {
+        margin-right: 80px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .nav-ul {
+        margin-right: 200px;
+    }
+
+    .explore-together h1 {
+        font-size: 4em;
+    }
+
+    .explore-together__image {
+        height: 450px;
+    }
+}
+
