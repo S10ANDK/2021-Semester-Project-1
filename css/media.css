@@ -1,14 +1,8 @@
-@media (min-width: 410px) {
-    .explore-together h1 {
-        font-size: 2em;
-
-    }
-}
 
 @media (min-width: 510px) {
     .explore-together h1 {
-        font-size: 2.5em;
-        top: 38%;
+        font-size: 3em;
+        top: 30%;
     }
 }
 
@@ -27,8 +21,8 @@
 
 @media (min-width: 850px) {
     .explore-together h1 {
-        font-size: 3.2em;
-        top: 41%;
+        font-size: 4em;
+        top: 31%;
     }
 
     .explore-together__image {
@@ -186,7 +180,7 @@
     }
 
     .explore-together h1 {
-        font-size: 4em;
+        font-size: 6em;
     }
 
     .explore-together__image {
