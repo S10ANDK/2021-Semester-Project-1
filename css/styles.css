@@ -158,6 +158,12 @@ nav a {
     margin-bottom: 80px;
 }
 
+.active-mobile {
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+}
+
 .header-images {
     width: 100%;
     margin: auto;

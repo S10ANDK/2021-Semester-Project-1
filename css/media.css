@@ -27,6 +27,14 @@
 }
 
 @media (min-width: 600px) {
+    .nav-ul a {
+        font-size: 1.6em;
+    }
+
+    .active-mobile {
+        text-underline-offset: 7px;
+    }
+
     .footer-container {
         flex-direction: row;
         max-width: 600px;
@@ -102,6 +110,10 @@
 }
 
 @media (min-width: 1210px) {
+    .active-mobile {
+        text-decoration: none;
+    }
+
     .logo {
         margin: 10px 5px 8px 10px;
         width: 75px;
