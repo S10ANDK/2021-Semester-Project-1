@@ -25,3 +25,112 @@ main {
     object-fit: cover;
 }
 
+.museum-satellite-images {
+    width: 30%;
+    height: auto;
+    margin: auto auto 20px;
+}
+
+.museum-satellite-container {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 60px auto 60px;
+}
+
+.museum,
+.satellite {
+    flex: 1;
+}
+
+.museum {
+    margin-bottom: 80px;
+}
+
+.text-container {
+    margin-left: 20%;
+}
+
+.explore-button-container {
+    margin: 40px auto 80px;
+}
+
+.cta {
+    background: var(--background-cta);
+    font-size: 2em;
+    font-weight: 800;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 40px;
+    width: 120px;
+    height: 45px;
+    border-radius: 20px;
+    margin: auto;
+    line-height: 44px;
+}
+
+#explore-button-text {
+    color: var(--text-color-white);
+}
+
+.home-page-exhibits-container,
+.home-page-purpose-container {
+    width: 100%;
+}
+
+.home-page-exhibits-container {
+    background: var(--background-section-2);
+}
+
+.home-page-purpose-container {
+    background: var(--background-section-3);
+}
+
+.home-page-images-small {
+    width: 30%;
+    height: auto;
+}
+
+.home-page-exhibits-content,
+.home-page-purpose-content {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.home-page-exhibits-content {
+    background: var(--background-section-2);
+    z-index: 1;
+}
+
+.home-page-purpose-content {
+    background: var(--background-section-3);
+}
+
+.home-page-info,
+.home-page-info-purpose {
+    flex: 1;
+    max-width: 250px;
+}
+
+.home-page-info p,
+.home-page-info-purpose p {
+    text-align: left;
+    color: #FFF;
+    line-height: 30px;
+    margin: auto auto 50px;
+}
+
+.dinosaur-icon,
+.robot-arm-icon{
+    flex: 0.5;
+    margin: 50px auto 40px;
+}

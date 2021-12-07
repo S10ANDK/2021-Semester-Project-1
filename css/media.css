@@ -1,8 +1,28 @@
+@media (min-width: 400px) {
+    .text-container {
+        margin-left: 24%;
+    }
+
+    .home-page-info,
+    .home-page-info-purpose {
+        max-width: 300px;
+    }
+}
 
 @media (min-width: 510px) {
+    p {
+        font-size: 1.5em;
+    }
+
     .explore-together h1 {
         font-size: 3em;
         top: 30%;
+    }
+
+    .home-page-info,
+    .home-page-info-purpose {
+        max-width: 400px;
+        margin-left: 5%;
     }
 }
 
@@ -28,9 +48,60 @@
     .explore-together__image {
         height: 300px;
     }
+
+    .museum-satellite-container {
+        flex-direction: row;
+        margin-top: 70px;
+    }
+
+    .cta {
+        font-size: 2.5em;
+        width: 180px;
+        height: 55px;
+        line-height: 55px;
+        border-radius: 25px;
+        transition: 0.4s ease-in-out;
+    }
+
+    .cta:hover {
+        background: #348A44;
+        border-radius: 40px;
+    }
+
+    .home-page-exhibits-content {
+        flex-direction: row;
+    }
+
+    .home-page-purpose-content {
+        flex-direction: row-reverse;
+    }
+    .home-page-info p,
+    .home-page-info-purpose p {
+        margin: 70px auto;
+    }
+
+    .home-page-info p {
+        margin-right: 70px;
+    }
+
+    .home-page-info-purpose p {
+        margin-left: 70px;
+    }
+
+    .dinosaur-icon {
+        margin: 0;
+    }
+
+    .home-page-images-small {
+        width: 50%;
+    }
+
+    .robot-arm-image {
+        width: 45%;
+    }
 }
 
-@media (min-width: 1180px) {
+@media (min-width: 1210px) {
     .logo {
         margin: 10px 5px 8px 10px;
         width: 75px;
@@ -50,6 +121,14 @@
 
     nav a {
         font-size: 1.8em;
+    }
+
+    .nav-ul {
+        clear: none;
+        float: right;
+        max-height: none;
+        margin-top: 13px;
+        box-shadow: none;
     }
 
     .nav-ul a {
@@ -78,13 +157,6 @@
 
     #a-get-involved {
         margin-bottom: 0px;
-    }
-
-    .nav-ul {
-        clear: none;
-        float: right;
-        max-height: none;
-        margin-top: 13px;
     }
 
     .menu-icon {
@@ -163,7 +235,7 @@
 
     .footer-nav a {
         color: #FFF;
-        font-size: 1.4em;
+        font-size: 1.6em;
         text-decoration: none;
     }
 }
@@ -186,5 +258,35 @@
     .explore-together__image {
         height: 450px;
     }
+
+    .museum-satellite-container,
+    .home-page-exhibits-content,
+    .home-page-purpose-content {
+        max-width: 1200px;
+    }
+
+    .robot-arm-icon {
+        padding: 25px 0px;
+    }
+
+    .dinosaur-image {
+        margin-right: 160px;
+    }
+
+    .robot-arm-image {
+        margin-left: 100px;
+    }
 }
 
+@media (min-width: 2400px) {
+    .explore-together h1 {
+        font-size: 7.2em;
+        top: 35%;
+    }
+
+    .explore-together__image {
+        height: 650px;
+    }
+
+
+}
