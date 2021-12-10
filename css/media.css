@@ -86,7 +86,8 @@
         flex-direction: row;
     }
 
-    .home-page-purpose-content {
+    .home-page-purpose-content,
+    .for-researchers-content {
         flex-direction: row-reverse;
     }
     .home-page-info p,
@@ -126,6 +127,18 @@
     .teacher-image-container {
         grid-row: 1/3;
         grid-column: 2;
+    }
+
+    .for-researchers-content {
+        margin-top: 40px;
+    }
+
+    .researchers-text p {
+        transform: translateX(-47px);
+    }
+
+    .researchers__image {
+        transform: translateX(33px);
     }
 }
 
@@ -239,7 +252,8 @@
 
     .skeleton-mammoth__image,
     .for-kids__images,
-    .teacher__image {
+    .teacher__image,
+    .researchers__image {
         border-radius: 30px;
     }
 
