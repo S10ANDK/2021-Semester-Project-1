@@ -11,8 +11,7 @@ p {
 }
 
 .for-kids-content-1,
-.for-kids-content-2,
-.for-teachers-content {
+.for-kids-content-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,15 +107,22 @@ p {
     padding-bottom: 50px;
 }
 
+.for-teachers-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
 .teacher-image-container {
-    flex: 1;
     text-align: center;
     margin-top: 30px;
 }
 
 .teacher__image {
     width: 100%;
-    max-width: 400px;
+    max-width: 350px;
     object-fit: cover;
     border-radius: 15px;
     margin: 0;

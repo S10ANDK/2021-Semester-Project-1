@@ -117,6 +117,16 @@
     .for-kids {
         flex-direction: row;
     }
+
+    .for-teachers-content {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 30px;
+    }
+
+    .teacher-image-container {
+        grid-row: 1/3;
+        grid-column: 2;
+    }
 }
 
 @media (min-width: 1210px) {
@@ -228,7 +238,8 @@
     }
 
     .skeleton-mammoth__image,
-    .for-kids__images {
+    .for-kids__images,
+    .teacher__image {
         border-radius: 30px;
     }
 
@@ -236,8 +247,7 @@
         flex-direction: row-reverse;
     }
 
-    .for-kids-content-2,
-    .for-teachers-content {
+    .for-kids-content-2 {
         flex-direction: row;
     }
 
