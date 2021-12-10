@@ -1,0 +1,129 @@
+@import "../imports/variables.css";
+
+h1, 
+h2, 
+p {
+    line-height: 30px;
+}
+
+.learn__image {
+    max-height: 800px;
+}
+
+.for-kids-content-1,
+.for-kids-content-2,
+.for-teachers-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-bottom: 50px;
+}
+
+.page-headers {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.page-headers,
+.for-kids-p {
+    max-width: 500px;
+    margin: auto;
+}
+
+.for-kids-headers,
+.for-kids-p,
+.young-stars-club p,
+.holiday-clubs p,
+.teacher-text-1,
+.teacher-text-2,
+.teacher-image-container {
+    margin: auto 8%;
+}
+
+.for-kids-p,
+.teacher-text-1,
+.teacher-text-2{
+    flex: 1;
+    text-align: left;
+}
+
+.mammoth-container {
+    flex: 1;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.skeleton-mammoth__image {
+    width: 85%;
+    max-width: 600px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.for-kids-p {
+    flex: 1;
+}
+
+.for-kids-container-2 {
+    background: var(--background-section-3);
+    margin: 0px auto;
+}
+
+.young-stars-club,
+.holiday-clubs,
+.teacher__image {
+    flex:1;
+    text-align: center;
+    margin: 50px 8%;
+}
+
+.young-stars-club p,
+.holiday-clubs p,
+.for-teachers-content p {
+    text-align: left;
+    color: #FFF;
+    max-width: 500px;
+    margin: 30px auto auto;
+}
+
+.for-teachers-content p a {
+    color: #FFF;
+}
+
+.for-kids__images {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 15px;
+    object-fit: content;
+}
+
+.for-teachers {
+    background: var(--background-section-2);
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.teacher-image-container {
+    flex: 1;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.teacher__image {
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 0;
+}
+
+.for-teachers h1 {
+    color: #FFF;
+    padding: 40px 0px 0px;
+    margin: 0 auto;
+}

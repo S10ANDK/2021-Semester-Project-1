@@ -47,6 +47,12 @@
     }
 }
 
+@media (min-width: 700px) {
+    .for-kids-p {
+        margin: auto;
+    }
+}
+
 @media (min-width: 850px) {
     .explore-together h1 {
         font-size: 4em;
@@ -106,6 +112,10 @@
 
     .robot-arm-image {
         width: 45%;
+    }
+
+    .for-kids {
+        flex-direction: row;
     }
 }
 
@@ -215,6 +225,41 @@
 
     .footer-nav-effect::before {
         background-color: #FFF;
+    }
+
+    .skeleton-mammoth__image,
+    .for-kids__images {
+        border-radius: 30px;
+    }
+
+    .for-kids-content-1 {
+        flex-direction: row-reverse;
+    }
+
+    .for-kids-content-2,
+    .for-teachers-content {
+        flex-direction: row;
+    }
+
+    .for-kids-content-2 {
+        padding-bottom: 60px;
+    }
+
+    .young-stars-club,
+    .holiday-clubs {
+        margin: 50px auto;
+    }
+
+    .holiday-clubs {
+        margin-top: 108px;
+    }
+
+    .page-headers {
+        max-width: 800px;
+    }
+
+    .for-kids-p {
+        margin: auto 4%;
     }
 
     .footer-nav-effect:hover {

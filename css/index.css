@@ -1,9 +1,4 @@
 @import "../imports/variables.css";
-
-main {
-    line-height: 0px;
-}
-
 .explore-together {
     position: relative;
 }
@@ -51,7 +46,11 @@ main {
 }
 
 .text-container {
-    margin-left: 20%;
+    margin-left: 15%;
+}
+
+.text-container p{
+    line-height: 33px;
 }
 
 .explore-button-container {
@@ -125,7 +124,7 @@ main {
 .home-page-info-purpose p {
     text-align: left;
     color: #FFF;
-    line-height: 30px;
+    line-height: 33px;
     margin: auto auto 50px;
 }
 
