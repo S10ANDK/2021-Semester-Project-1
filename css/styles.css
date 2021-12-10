@@ -24,8 +24,18 @@ h2 {
 
 p {
     font-size: 1.2em;
-    line-height: 33px;
     margin: 0;
+}
+
+.text,
+.images {
+    margin: auto 5%;
+}
+
+h1, 
+h2, 
+p {
+    line-height: 30px;
 }
 
 .text-container {

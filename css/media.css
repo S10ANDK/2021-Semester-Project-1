@@ -24,6 +24,10 @@
         max-width: 400px;
         margin-left: 5%;
     }
+
+    .page-headers {
+        margin: auto;
+    }
 }
 
 @media (min-width: 600px) {
@@ -44,12 +48,6 @@
     .location {
         flex: 0.9;
         margin-top: 40px;
-    }
-}
-
-@media (min-width: 700px) {
-    .for-kids-p {
-        margin: auto;
     }
 }
 
@@ -90,17 +88,15 @@
     .for-researchers-content {
         flex-direction: row-reverse;
     }
+
+    .home-page-info,
+    .home-page-info-purpose {
+        max-width: 500px;
+    }
+
     .home-page-info p,
     .home-page-info-purpose p {
         margin: 70px auto;
-    }
-
-    .home-page-info p {
-        margin-right: 70px;
-    }
-
-    .home-page-info-purpose p {
-        margin-left: 70px;
     }
 
     .dinosaur-icon {
@@ -120,6 +116,7 @@
     }
 
     .for-teachers-content {
+        max-width: 1000px;
         grid-template-columns: 1fr 1fr;
         margin-top: 30px;
     }
@@ -131,14 +128,6 @@
 
     .for-researchers-content {
         margin-top: 40px;
-    }
-
-    .researchers-text p {
-        transform: translateX(-47px);
-    }
-
-    .researchers__image {
-        transform: translateX(33px);
     }
 }
 
@@ -269,6 +258,16 @@
         padding-bottom: 60px;
     }
 
+    .for-kids-content-1,
+    .for-kids-content-2,
+    .for-researchers-content {
+        margin: auto;
+    }
+
+    .for-kids-content-1 {
+        margin-top: 30px;
+    }
+
     .young-stars-club,
     .holiday-clubs {
         margin: 50px auto;
@@ -284,6 +283,19 @@
 
     .for-kids-p {
         margin: auto 4%;
+    }
+
+    .researchers-text p {
+        transform: translateX(-47px);
+    }
+
+    .researchers__image {
+        transform: translateX(29px);
+    }
+
+    .teacher-text-2 p a:hover {
+        text-decoration: none;
+        opacity: 70%;
     }
 
     .footer-nav-effect:hover {
@@ -306,6 +318,10 @@
 
     .location {
         flex: 1;
+    }
+
+    .for-teachers-content {
+        max-width: 1200px;
     }
 
     .footer-nav {

@@ -46,7 +46,8 @@
 }
 
 .text-container {
-    margin-left: 15%;
+    max-width: 300px;
+    margin-left: 10%;
 }
 
 .text-container p{
@@ -103,11 +104,12 @@
     justify-content: center;
     text-align: center;
     margin: 0px auto;
+    padding-bottom: 50px;
 }
 
 .home-page-exhibits-content {
     background: var(--background-section-2);
-    z-index: 1;
+
 }
 
 .home-page-purpose-content {
@@ -117,7 +119,6 @@
 .home-page-info,
 .home-page-info-purpose {
     flex: 1;
-    max-width: 250px;
 }
 
 .home-page-info p,
@@ -125,7 +126,6 @@
     text-align: left;
     color: #FFF;
     line-height: 33px;
-    margin: auto auto 50px;
 }
 
 .dinosaur-icon,
