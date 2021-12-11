@@ -48,15 +48,12 @@
     border-radius: 15px;
 }
 
-.cosmology-text-1 p,
-.cosmology-text-2 p {
+.cosmology-text p {
     color: #FFF;
 }
 
-.cosmology-text-1 p,
-.cosmology-text-2 p,
-.evolution-text-1 p,
-.evolution-text-2 p {
+.cosmology-text p,
+.evolution-text p {
     max-width: 500px;
 }
 
