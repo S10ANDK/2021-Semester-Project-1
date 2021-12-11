@@ -16,7 +16,8 @@
 
     .explore-together h1,
     .cosmology-banner h1,
-    .evolution-banner h1 {
+    .evolution-banner h1,
+    .biology-medicine-banner h1 {
         font-size: 3em;
         top: 30%;
     }
@@ -63,14 +64,16 @@
 @media (min-width: 850px) {
     .explore-together h1,
     .cosmology-banner h1,
-    .evolution-banner h1 {
+    .evolution-banner h1,
+    .biology-medicine-banner h1 {
         font-size: 4em;
         top: 31%;
     }
 
     .explore-together__image,
     .cosmology-banner__image,
-    .evolution-banner__image {
+    .evolution-banner__image,
+    .biology-medicine-banner__image {
         height: 300px;
     }
 
@@ -262,7 +265,8 @@
     .teacher__image,
     .researchers__image,
     .cosmology__image,
-    .evolution__image {
+    .evolution__image,
+    .biology-medicine__image {
         border-radius: 30px;
     }
 
@@ -393,13 +397,15 @@
 
     .explore-together h1,
     .cosmology-banner h1,
-    .evolution-banner h1 {
+    .evolution-banner h1,
+    .biology-medicine-banner h1 {
         font-size: 6em;
     }
 
     .explore-together__image,
     .cosmology-banner__image,
-    .evolution-banner__image {
+    .evolution-banner__image,
+    .biology-medicine-banner__image {
         height: 450px;
     }
 
@@ -425,14 +431,16 @@
 @media (min-width: 2400px) {
     .explore-together h1,
     .cosmology-banner h1,
-    .evolution-banner h1 {
+    .evolution-banner h1,
+    .biology-medicine-banner h1 {
         font-size: 7.2em;
         top: 35%;
     }
 
     .explore-together__image,
     .cosmology-banner__image,
-    .evolution-banner__image {
+    .evolution-banner__image,
+    .biology-medicine-banner__image {
         height: 650px;
     }
 }

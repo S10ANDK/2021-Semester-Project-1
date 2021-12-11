@@ -1,12 +1,14 @@
 @import "../imports/variables.css";
 
 .cosmology-banner,
-.evolution-banner {
+.evolution-banner,
+.biology-medicine-banner {
     position: relative;
 }
 
 .cosmology-banner h1,
-.evolution-banner h1 {
+.evolution-banner h1,
+.biology-medicine-banner h1 {
     font-size: 2.5em;
     width: 100%;
     color: #FFF;
@@ -18,7 +20,8 @@
 }
 
 .cosmology-banner__image,
-.evolution-banner__image {
+.evolution-banner__image,
+.biology-medicine-banner__image {
     width: 100%;
     height: 200px;
     object-fit: cover;
@@ -38,22 +41,44 @@
 }
 
 .cosmology-image-container,
-.evolution-image-container {
+.evolution-image-container,
+.biology-medicine-image-container {
     margin: 30px auto;
 }
 
 .cosmology__image,
-.evolution__image {
+.evolution__image,
+.biology-medicine__image {
     width: 200px;
     border-radius: 15px;
 }
 
-.cosmology-text p {
+.cosmology-text p,
+.biology-medicine-text p {
     color: #FFF;
 }
 
 .cosmology-text p,
-.evolution-text p {
+.evolution-text p,
+.biology-medicine-text p  {
     max-width: 500px;
 }
 
+.biology-medicine {
+    background: var(--background-section-3);
+}
+
+.biology-medicine-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0px 70px;
+}
+
+.biology-medicine-image-container,
+.biology-medicine-text {
+    flex: 1;
+}
