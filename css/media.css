@@ -34,7 +34,11 @@
     .evolution-text-2 {
         margin: auto;
     }
-}
+
+    .cosmology__image,
+    .evolution__image {
+        width: 250px;
+    }
 
 @media (min-width: 600px) {
     .nav-ul a {
@@ -138,6 +142,11 @@
 
     .for-researchers-content {
         margin-top: 40px;
+    }
+
+    .cosmology__image,
+    .evolution__image {
+        width: 300px;
     }
 }
 
