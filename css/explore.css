@@ -54,7 +54,6 @@
     max-width: 600px;
     object-fit: cover;
     margin: auto;
-    border-radius: 15px;
 }
 
 .for-kids-p {
@@ -91,9 +90,7 @@
 }
 
 .for-kids__images {
-    width: 100%;
     max-width: 500px;
-    border-radius: 15px;
     object-fit: cover;
 }
 
@@ -123,10 +120,8 @@
 }
 
 .teacher__image {
-    width: 100%;
     max-width: 350px;
     object-fit: cover;
-    border-radius: 15px;
     margin: 0;
 }
 
@@ -143,10 +138,8 @@
 }
 
 .researchers__image {
-    width: 100%;
     max-width: 350px;
     object-fit: cover;
-    border-radius: 15px;
 }
 
 .researchers-text,

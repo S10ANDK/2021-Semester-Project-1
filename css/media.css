@@ -289,16 +289,8 @@
         background-color: #FFF;
     }
 
-    .skeleton-mammoth__image,
-    .for-kids__images,
-    .teacher__image,
-    .researchers__image,
-    .cosmology__image,
-    .evolution__image,
-    .biology-medicine__image,
-    .robotics-ai__image,
-    .ecology__image {
-        border-radius: 30px;
+    .images {
+        border-radius: 30px
     }
 
     .for-kids-content-2,
