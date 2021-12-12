@@ -33,7 +33,8 @@
     object-fit: cover;
 }
 
-.cosmology {
+.cosmology,
+.robotics-ai {
     background: var(--background-section-4);
 }
 
@@ -43,30 +44,41 @@
     grid-template-columns: 1fr;
     max-width: 1200px;
     margin: auto;
-    padding: 50px 0px 70px;
+    padding: 40px 0px 50px;
 }
 
 .cosmology-image-container,
 .evolution-image-container,
-.biology-medicine-image-container {
+.biology-medicine-image-container,
+.robotics-ai-image-container,
+.ecology-image-container {
     margin: 30px auto;
 }
 
 .cosmology__image,
 .evolution__image,
-.biology-medicine__image {
+.biology-medicine__image,
+.robotics-ai__image {
     width: 200px;
     border-radius: 15px;
 }
 
+.ecology__image {
+    width: 300px;
+    border-radius: 15px;
+}
+
 .cosmology-text p,
-.biology-medicine-text p {
+.biology-medicine-text p,
+.robotics-ai-text p {
     color: #FFF;
 }
 
 .cosmology-text p,
 .evolution-text p,
-.biology-medicine-text p  {
+.biology-medicine-text p,
+.robotics-ai-text p,
+.ecology-text p {
     max-width: 500px;
 }
 
@@ -74,32 +86,46 @@
     background: var(--background-section-3);
 }
 
-.biology-medicine-container {
+.biology-medicine-container,
+.ecology-container,
+.robotics-ai-content {
     max-width: 1200px;
     margin: auto;
-    padding: 50px 0px 70px;
+    padding: 40px 0px 50px;
 }
 
-.biology-medicine-content {
+.biology-medicine-content,
+.robotics-ai-content,
+.ecology-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
 .biology-medicine-image-container,
-.biology-medicine-text {
+.biology-medicine-text,
+.robotics-ai-image-container,
+.robotics-ai-text,
+.ecology-image-container,
+.ecology-text {
     flex: 1;
 }
 
-.biology-medicine-image-container {
+.biology-medicine-image-container,
+.robotics-ai-image-container,
+.ecology-image-container {
     text-align: center;
 }
 
 .ants__image,
-.heart__image {
+.heart__image,
+.warming__image {
     width: 300px;
     margin-top: 60px;
 }
 
+.robotics-ai,
+.ecology {
+    padding-bottom: 50px
+}

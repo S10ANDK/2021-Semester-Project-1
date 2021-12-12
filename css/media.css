@@ -84,6 +84,11 @@
         margin-top: 70px;
     }
 
+    .home-page-exhibits-content,
+    .home-page-purpose-content {
+        padding: 50px 0px 60px;
+    }
+
     .cta {
         font-size: 2.5em;
         width: 180px;
@@ -154,9 +159,25 @@
         width: 300px;
     }
 
+    .robotics-ai__image {
+        width: 350px;
+    }
+
     .ants__image,
-    .heart__image {
+    .heart__image,
+    .ecology__image {
         width: 450px;
+    }
+
+    .cosmology-content,
+    .evolution-content,
+    .robotics-ai-content,
+    .ecology-container {
+        padding: 90px 0px 90px;
+    }
+
+    .biology-medicine-container {
+        padding: 90px 0px 120px;
     }
 }
 
@@ -274,17 +295,22 @@
     .researchers__image,
     .cosmology__image,
     .evolution__image,
-    .biology-medicine__image {
+    .biology-medicine__image,
+    .robotics__image,
+    .ecology-image {
         border-radius: 30px;
     }
 
     .for-kids-content-2,
-    .biology-medicine-content {
+    .biology-medicine-content,
+    .robotics-ai-content,
+    .ecology-content {
         flex-direction: row;
     }
 
     .for-kids-content-1,
-    .heart-reverse {
+    .heart-reverse,
+    .warming-reverse {
         flex-direction: row-reverse;
     }
 
@@ -320,7 +346,7 @@
     }
 
     .researchers-text p {
-        transform: translateX(-47px);
+        transform: translateX(-22px);
     }
 
     .researchers__image {
@@ -353,7 +379,8 @@
     }
 
     .ants__image,
-    .heart__image {
+    .heart__image,
+    .warming__image {
         margin-top: 0px;
     }
 
@@ -368,6 +395,19 @@
     .tiny-world-text,
     .animals-text {
         transform: translateX(45px);
+    }
+
+    .glacier-text {
+        transform: translateX(86px);
+    }
+
+    .warming-text {
+        transform: translateX(-58px);
+    }
+
+    .robotics-ai,
+    .ecology {
+        padding-bottom: 0px
     }
 
     .footer-nav-effect:hover {
