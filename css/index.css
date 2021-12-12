@@ -47,7 +47,7 @@
 
 .text-container {
     max-width: 300px;
-    margin-left: 10%;
+    margin: auto;
 }
 
 .text-container p{

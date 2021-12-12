@@ -2,13 +2,17 @@
 
 .cosmology-banner,
 .evolution-banner,
-.biology-medicine-banner {
+.biology-medicine-banner,
+.robotics-ai-banner,
+.ecology-banner {
     position: relative;
 }
 
 .cosmology-banner h1,
 .evolution-banner h1,
-.biology-medicine-banner h1 {
+.biology-medicine-banner h1,
+.robotics-ai-banner h1,
+.ecology-banner h1 {
     font-size: 2.5em;
     width: 100%;
     color: #FFF;
@@ -21,7 +25,9 @@
 
 .cosmology-banner__image,
 .evolution-banner__image,
-.biology-medicine-banner__image {
+.biology-medicine-banner__image,
+.robotics-ai-banner__image,
+.ecology-banner__image {
     width: 100%;
     height: 200px;
     object-fit: cover;
@@ -68,17 +74,32 @@
     background: var(--background-section-3);
 }
 
+.biology-medicine-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0px 70px;
+}
+
 .biology-medicine-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 1200px;
-    margin: auto;
-    padding: 50px 0px 70px;
+    flex-wrap: wrap;
 }
 
 .biology-medicine-image-container,
 .biology-medicine-text {
     flex: 1;
 }
+
+.biology-medicine-image-container {
+    text-align: center;
+}
+
+.ants__image,
+.heart__image {
+    width: 300px;
+    margin-top: 60px;
+}
+

@@ -1,8 +1,4 @@
 @media (min-width: 400px) {
-    .text-container {
-        margin-left: 24%;
-    }
-
     .home-page-info,
     .home-page-info-purpose {
         max-width: 300px;
@@ -17,7 +13,9 @@
     .explore-together h1,
     .cosmology-banner h1,
     .evolution-banner h1,
-    .biology-medicine-banner h1 {
+    .biology-medicine-banner h1,
+    .robotics-ai-banner h1,
+    .ecology-banner h1 {
         font-size: 3em;
         top: 30%;
     }
@@ -65,7 +63,9 @@
     .explore-together h1,
     .cosmology-banner h1,
     .evolution-banner h1,
-    .biology-medicine-banner h1 {
+    .biology-medicine-banner h1,
+    .robotics-ai-banner h1,
+    .ecology-banner h1 {
         font-size: 4em;
         top: 31%;
     }
@@ -73,7 +73,9 @@
     .explore-together__image,
     .cosmology-banner__image,
     .evolution-banner__image,
-    .biology-medicine-banner__image {
+    .biology-medicine-banner__image,
+    .robotics-ai-banner__image,
+    .ecology-banner__image {
         height: 300px;
     }
 
@@ -147,8 +149,14 @@
     }
 
     .cosmology__image,
-    .evolution__image {
+    .evolution__image,
+    .biology-medicine__image {
         width: 300px;
+    }
+
+    .ants__image,
+    .heart__image {
+        width: 450px;
     }
 }
 
@@ -270,12 +278,14 @@
         border-radius: 30px;
     }
 
-    .for-kids-content-1 {
-        flex-direction: row-reverse;
+    .for-kids-content-2,
+    .biology-medicine-content {
+        flex-direction: row;
     }
 
-    .for-kids-content-2 {
-        flex-direction: row;
+    .for-kids-content-1,
+    .heart-reverse {
+        flex-direction: row-reverse;
     }
 
     .for-kids-content-2 {
@@ -338,6 +348,28 @@
         grid-column: 2;
     }
 
+    .biology-medicine__image {
+        margin-left: 40px;
+    }
+
+    .ants__image,
+    .heart__image {
+        margin-top: 0px;
+    }
+
+    .heart__image {
+        margin-right: 105px;
+    }
+
+    .heart-reverse {
+        margin: 50px auto;
+    }
+
+    .tiny-world-text,
+    .animals-text {
+        transform: translateX(45px);
+    }
+
     .footer-nav-effect:hover {
         opacity: 100%;
     }
@@ -398,14 +430,18 @@
     .explore-together h1,
     .cosmology-banner h1,
     .evolution-banner h1,
-    .biology-medicine-banner h1 {
+    .biology-medicine-banner h1,
+    .robotics-ai-banner h1,
+    .ecology-banner h1 {
         font-size: 6em;
     }
 
     .explore-together__image,
     .cosmology-banner__image,
     .evolution-banner__image,
-    .biology-medicine-banner__image {
+    .biology-medicine-banner__image,
+    .robotics-ai-banner__image,
+    .ecology-banner__image {
         height: 450px;
     }
 
@@ -432,7 +468,9 @@
     .explore-together h1,
     .cosmology-banner h1,
     .evolution-banner h1,
-    .biology-medicine-banner h1 {
+    .biology-medicine-banner h1,
+    .robotics-ai-banner h1,
+    .ecology-banner h1 {
         font-size: 7.2em;
         top: 35%;
     }
@@ -440,7 +478,9 @@
     .explore-together__image,
     .cosmology-banner__image,
     .evolution-banner__image,
-    .biology-medicine-banner__image {
+    .biology-medicine-banner__image,
+    .robotics-ai-banner__image,
+    .ecology-banner__image {
         height: 650px;
     }
 }
