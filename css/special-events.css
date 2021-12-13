@@ -1,0 +1,77 @@
+@import "../imports/variables.css";
+
+.news {
+    position: relative;
+}
+
+.news h1 {
+    font-size: 2.5em;
+    width: 100%;
+    color: #FFF;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.night-museum {
+    background: var(--background-section-4);
+}
+
+.professor h2,
+.night-museum h2,
+.energetica h2 {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 30px;
+}
+
+.professor__image,
+.night-museum__image,
+.energetica__image {
+    width: 200px;
+    margin: 30px auto 40px;
+}
+
+.professor__image {
+    margin-top: 70px;
+}
+
+.energetica__image {
+    width: 300px;
+}
+
+.night-museum {
+    padding-top: 0.1px;
+}
+
+.professor-content,
+.night-museum-content,
+.energetica-content {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+.professor-text,
+.night-museum-text,
+.energetica-text,
+.professor-image-container,
+.night-museum-image-container,
+.energetica-image-container {
+    flex: 1;
+}
+
+.professor-text {
+    margin-top: 20px;
+}
+
+.night-museum-text p,
+.night-museum h2 {
+    color: #FFF;
+}

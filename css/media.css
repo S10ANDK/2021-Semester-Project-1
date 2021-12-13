@@ -15,7 +15,8 @@
     .evolution-banner h1,
     .biology-medicine-banner h1,
     .robotics-ai-banner h1,
-    .ecology-banner h1 {
+    .ecology-banner h1,
+    .news h1 {
         font-size: 3em;
         top: 30%;
     }
@@ -65,7 +66,8 @@
     .evolution-banner h1,
     .biology-medicine-banner h1,
     .robotics-ai-banner h1,
-    .ecology-banner h1 {
+    .ecology-banner h1,
+    .news h1 {
         font-size: 4em;
         top: 31%;
     }
@@ -150,7 +152,9 @@
 
     .cosmology__image,
     .evolution__image,
-    .biology-medicine__image {
+    .biology-medicine__image,
+    .professor__image,
+    .night-museum__image {
         width: 300px;
     }
 
@@ -164,15 +168,17 @@
         width: 450px;
     }
 
-    .cosmology-content,
-    .evolution-content,
-    .robotics-ai-content,
-    .ecology-container {
-        padding: 90px 0px 90px;
+    .energetica__image {
+        width: 550px;
     }
 
-    .biology-medicine-container {
-        padding: 90px 0px 120px;
+
+
+    .professor h2,
+    .night-museum h2,
+    .energetica h2 {
+        font-size: 2em;
+        margin-top: 50px;
     }
 }
 
@@ -291,7 +297,9 @@
     .for-kids-content-2,
     .biology-medicine-content,
     .robotics-ai-content,
-    .ecology-content {
+    .ecology-content,
+    .professor-content,
+    .night-museum-content {
         flex-direction: row;
     }
 
@@ -397,6 +405,36 @@
         padding-bottom: 0px
     }
 
+    .biology-medicine-container {
+        padding: 90px 0px 120px;
+    }
+
+    .cosmology-content,
+    .evolution-content,
+    .robotics-ai-content,
+    .ecology-container {
+        padding: 90px 0px 90px;
+    }
+
+    .professor-image-container,
+    .night-museum-image-container {
+        text-align: center;
+        margin: 60px auto 60px;
+    }
+
+    .professor__image {
+        margin: 0px auto;
+        transform: translateX(20px);
+    }
+
+    .professor-text {
+        margin: 200px auto;
+    }
+
+    .night-museum__image {
+        transform: translateX(-40px);
+    }
+
     .footer-nav-effect:hover {
         opacity: 100%;
     }
@@ -459,7 +497,8 @@
     .evolution-banner h1,
     .biology-medicine-banner h1,
     .robotics-ai-banner h1,
-    .ecology-banner h1 {
+    .ecology-banner h1,
+    .news h1 {
         font-size: 6em;
     }
 
@@ -492,7 +531,8 @@
     .evolution-banner h1,
     .biology-medicine-banner h1,
     .robotics-ai-banner h1,
-    .ecology-banner h1 {
+    .ecology-banner h1,
+    .news h1 {
         font-size: 7.2em;
         top: 35%;
     }
