@@ -196,12 +196,6 @@ nav a {
     text-decoration-thickness: 2px;
 }
 
-.header-images {
-    width: 100%;
-    margin: auto;
-    object-fit: cover;
-}
-
 .text-left-aligned {
     text-align: left;
 }
