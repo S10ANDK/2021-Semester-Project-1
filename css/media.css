@@ -235,6 +235,10 @@
         margin-top: 20px;
     }
 
+    #location {
+        margin-top: 0px;
+    }
+
     #location h1 {
         padding-top: 30px;
     }
