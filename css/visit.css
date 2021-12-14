@@ -6,15 +6,59 @@
 h1 {
     text-align: center;
     font-size: 1.6em;
-    margin-top: 40px;
+    margin: 60px auto 0px;
 }
 
 #location {
-    margin-top: 30px;
+    margin-top: 0px;
 }
 
 p {
     max-width: 600px;
     margin: 20px 6%;
+}
+
+.visit-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.hours-text,
+.hours-image-container {
+    flex: 1;
+}
+
+.hours-image-container,
+.food-drink-image-container,
+.shop-image-container {
+    text-align: center;
+}
+
+.hours__image {
+    width: 200px;
+    margin: 30px auto;
+}
+
+.food-drink__image,
+.shop__image {
+    text-align: center;
+    width: 200px;
+}
+
+.shop-image-container {
+    margin-bottom: 50px;
+}
+
+.hours {
+    max-width: 245px;
+    margin: auto;
+}
+
+.hours-text p {
+   text-align: left;
+   width: 245px;
 }
 

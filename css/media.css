@@ -42,6 +42,14 @@
     .evolution__image {
         width: 250px;
     }
+
+    .hours-text p {
+        font-size: 1.3em
+    }
+
+    .hours {
+        max-width: 285px;
+    }
 }
 
 @media (min-width: 600px) {
@@ -113,7 +121,8 @@
         border-radius: 40px;
     }
 
-    .home-page-exhibits-content {
+    .home-page-exhibits-content,
+    .visit-content {
         flex-direction: row;
     }
 
@@ -187,6 +196,22 @@
         width: 450px;
     }
 
+    .visit-content {
+        margin-top: 40px;
+    }
+
+    .hours-text {
+        transform: translateX(-90px);
+    }
+
+    .hours-image-container {
+        transform: translateX(85px);
+    }
+
+    .shop-image-container {
+        margin-bottom: 90px;
+    }
+
     .energetica__image,
     .volunteer__image,
     .internship__image {
@@ -202,9 +227,17 @@
     }
 
     .visit h1 {
-        padding-top: 20px;
+        padding-top: 40px;
     }
 
+    .food-drink__image,
+    .shop__image {
+        margin-top: 20px;
+    }
+
+    #location h1 {
+        padding-top: 30px;
+    }
 
     .energetica-text,
     .volunteer-text,
@@ -477,6 +510,18 @@
 
     .night-museum__image {
         transform: translateX(-40px);
+    }
+
+    .hours__image {
+        width: 250px;
+    }
+
+    .hours-text {
+        transform: translateX(-70px);
+    }
+
+    .hours-image-container {
+        transform: translateX(65px);
     }
 
     .footer-nav-effect:hover {
