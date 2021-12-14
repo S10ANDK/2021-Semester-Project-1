@@ -63,6 +63,10 @@
         flex: 0.9;
         margin-top: 40px;
     }
+
+    .visit-text {
+        margin: 22px auto
+    }
 }
 
 @media (min-width: 850px) {
@@ -183,15 +187,29 @@
         width: 450px;
     }
 
-    .energetica__image {
-        width: 550px;
+    .energetica__image,
+    .volunteer__image,
+    .internship__image {
+        width: 650px;
     }
 
     .professor h2,
     .night-museum h2,
-    .energetica h2 {
+    .energetica h2,
+    .visit h1 {
         font-size: 2em;
         margin-top: 50px;
+    }
+
+    .visit h1 {
+        padding-top: 20px;
+    }
+
+
+    .energetica-text,
+    .volunteer-text,
+    .internship-text {
+        max-width: 600px;
     }
 
 
@@ -353,7 +371,9 @@
 
     .page-headers h1,
     .support h1,
-    .for-teachers h1 {
+    .for-teachers h1,
+    .volunteer h1,
+    .internship h1 {
         font-size: 2.2em;
     }
 
