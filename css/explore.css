@@ -34,8 +34,13 @@
     max-width: 500px;
 }
 
+.page-headers h1 {
+    font-size: 1.8em;
+}
+
 .page-headers h2 {
     text-align: left;
+    font-size: 1.4em;
 }
 
 .for-kids-p,
@@ -128,6 +133,7 @@
 }
 
 .for-teachers h1 {
+    font-size: 1.8em;
     color: #FFF;
     padding: 40px 0px 0px;
     margin: 0 auto;

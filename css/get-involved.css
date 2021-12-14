@@ -1,0 +1,56 @@
+@import "../imports/variables.css";
+
+h1 {
+    text-align: center;
+    font-size: 1.6em;
+}
+
+.support,
+.internship {
+    margin: 30px 0px 90px;
+}
+
+.support-image-container,
+.volunteer-image-container,
+.internship-image-container {
+    margin: auto;
+    text-align: center;
+}
+
+.support__image {
+    width: 300px;
+    margin: 30px auto;
+}
+
+.volunteer__image,
+.internship__image {
+    width: 320px;
+    margin: 30px auto; 
+}
+
+.support-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 1200px;
+    margin: auto;
+    margin: 0px auto 50px;
+}
+
+.support-text,
+.support__image {
+    flex: 1;
+}
+
+.volunteer {
+    background: var(--background-section-4);
+    padding: 0.1px 0px 90px;
+}
+
+.volunteer-text p,
+.volunteer h1 {
+    color: #FFF;
+}
+
+.second-p {
+    margin: 50px auto 0px;
+}

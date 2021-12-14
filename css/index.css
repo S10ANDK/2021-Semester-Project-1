@@ -77,6 +77,10 @@
     color: var(--text-color-white);
 }
 
+.lab__image {
+    width: 100%;
+}
+
 .home-page-exhibits-container,
 .home-page-purpose-container {
     width: 100%;

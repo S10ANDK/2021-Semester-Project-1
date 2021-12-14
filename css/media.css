@@ -29,7 +29,12 @@
 
     .page-headers,
     .cosmology-text,
-    .evolution-text {
+    .evolution-text,
+    .teacher-text-1,
+    .teacher-text-2,
+    .support-text,
+    .volunteer-text,
+    .internship-text {
         margin: auto;
     }
 
@@ -74,6 +79,10 @@
 
     .banner {
         height: 300px;
+    }
+
+    .images {
+        border-radius: 30px
     }
 
     .museum-satellite-container {
@@ -141,6 +150,11 @@
         margin-top: 30px;
     }
 
+    .teacher-text-1,
+    .teacher-text-2 {
+        max-width: 400px;
+    }
+
     .teacher-image-container {
         grid-row: 1/3;
         grid-column: 2;
@@ -164,7 +178,8 @@
 
     .ants__image,
     .heart__image,
-    .ecology__image {
+    .ecology__image,
+    .support__image {
         width: 450px;
     }
 
@@ -172,14 +187,14 @@
         width: 550px;
     }
 
-
-
     .professor h2,
     .night-museum h2,
     .energetica h2 {
         font-size: 2em;
         margin-top: 50px;
     }
+
+
 }
 
 @media (min-width: 1210px) {
@@ -290,10 +305,6 @@
         background-color: #FFF;
     }
 
-    .images {
-        border-radius: 30px
-    }
-
     .for-kids-content-2,
     .biology-medicine-content,
     .robotics-ai-content,
@@ -340,6 +351,17 @@
         margin: auto 4%;
     }
 
+    .page-headers h1,
+    .support h1,
+    .for-teachers h1 {
+        font-size: 2.2em;
+    }
+
+    .teacher-text-1,
+    .teacher-text-2 {
+        max-width: 500px;
+    }
+
     .researchers-text p {
         transform: translateX(-22px);
     }
@@ -358,13 +380,15 @@
     }
 
     .cosmology-content,
-    .evolution-content {
+    .evolution-content,
+    .support-content {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
     .cosmology-image-container,
-    .evolution-image-container {
+    .evolution-image-container,
+    .support-image-container {
         grid-row: 1/3;
         grid-column: 2;
     }
@@ -471,7 +495,7 @@
     }
 
     #footer-link-home {
-        margin-top: 12px;
+        margin-top: 16px;
     }
 
     .footer-nav a {
