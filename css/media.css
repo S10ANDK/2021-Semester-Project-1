@@ -44,6 +44,10 @@
         width: 250px;
     }
 
+    .submit h1 {
+        margin: 50px auto;
+    }
+
     .hours-text p {
         font-size: 1.3em
     }
