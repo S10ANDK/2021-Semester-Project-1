@@ -76,17 +76,17 @@
             <section class="visit contact">
                 <h1>Contact Us</h1>
                 <div class="contact-content">
-                    <form method="post">
+                    <form action="submit.html" method="get">
                         <div class="form-wrapper">                
                             <section>
                             <label for="name" class="name">Full name</label>
-                            <input type="text" placeholder="Enter your full name" required id="name" name="name">
+                            <input type="text" placeholder="Enter your full name" id="name" name="name" required>
                             <label for="email" class="email">E-mail</label>
-                            <input type="email" placeholder="Enter your e-mail address" required id="Email" name="Email">
+                            <input type="email" placeholder="Enter your e-mail address" id="Email" name="Email" required>
                             </section>
                             <section>
                                 <label for="message" class="message">Message</label>
-                                <textarea placeholder="Write your message here.." required id="message" name="message" rows="3" cols="30"></textarea>
+                                <textarea placeholder="Write your message here.." id="message" name="message" rows="3" cols="30" required></textarea>
                             </section>
                         </div>
                         <input type="submit" value="Send Now" class="send__button">

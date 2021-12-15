@@ -1,0 +1,21 @@
+h1{
+    margin: 50px auto;
+    text-align: center;
+} 
+
+.submit-text {
+    width: 438px;
+    margin-top: 50px;
+}
+
+.submit-p-2 {
+    margin-top: 30px;
+}
+
+#explore-button-text {
+    color: #FFF;
+}
+
+.cta {
+    margin: 60px auto 80px;
+}
