@@ -495,7 +495,7 @@
     }
 
     .heart__image {
-        margin-right: 105px;
+        margin-right: 76px;
     }
 
     .heart-reverse {
@@ -508,11 +508,11 @@
     }
 
     .glacier-text {
-        transform: translateX(86px);
+        transform: translateX(70px);
     }
 
     .warming-text {
-        transform: translateX(-58px);
+        transform: translateX(-44px);
     }
 
     .robotics-ai,
