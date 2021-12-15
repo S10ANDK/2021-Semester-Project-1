@@ -219,6 +219,7 @@ nav a {
 footer {
     color: #FFF;
     background: var(--background-footer);
+    padding: 50px 0px;
 }
 
 .footer-container {
@@ -233,17 +234,18 @@ footer {
 
 .opening-hours {
     flex: 1;
+    width: 220px;
     margin: 40px auto 0px 60px;
 }
 
 .opening-hours p {
-    font-size: 1.05em;
+    font-size: 1.1em;
     margin: 20px auto;
 }
 
 .location {
     flex: 1;
-    margin: 30px auto 60px 75px;
+    margin: 30px auto 60px 60px;
 }
 
 .location p {

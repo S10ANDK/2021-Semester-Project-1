@@ -592,6 +592,10 @@
         flex: 1;
     }
 
+    footer {
+        padding: 80px 0px;
+    }
+
     .footer-nav {
         margin: 40px auto;
     }
