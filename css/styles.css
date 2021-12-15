@@ -3,7 +3,9 @@
 body {
     font-family: var(--text-body), Arial, Helvetica, sans-serif;
     background-color: var(--background-body);
-    min-height: 100vh;
+    background-position: 0vmin;
+    display: grid;
+    height: 100vh;
     margin: 0px;
     padding: 0px;
 }
