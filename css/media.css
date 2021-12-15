@@ -75,6 +75,10 @@
     .visit-text {
         margin: 22px auto
     }
+
+    .contact-content {
+        margin: 30px auto;
+    }
 }
 
 @media (min-width: 850px) {
@@ -112,13 +116,29 @@
         width: 180px;
         height: 55px;
         line-height: 55px;
-        border-radius: 25px;
-        transition: 0.4s ease-in-out;
     }
 
-    .cta:hover {
+    .send__button {
+        font-size: 1.8em;
+        width: 240px;
+        height: 60px;
+    }
+
+    .cta,
+    .send__button {
+        border-radius: 25px;
+        transition: 0.4s ease-in-out;
+        cursor: pointer;
+    }
+
+    .cta:hover,
+    .send__button:hover {
         background: #348A44;
         border-radius: 40px;
+    }
+
+    .send__button:hover {
+        background: #fbfbfbce;
     }
 
     .home-page-exhibits-content,
@@ -249,7 +269,20 @@
         max-width: 600px;
     }
 
+    .name,
+    .email,
+    .message {
+        font-size: 1.4em;
+        margin: 20px 1px 10px;
+    }
 
+    .contact {
+        border-radius: 30px;
+    }
+
+    .contact h1 {
+        margin-top: 0px;
+    }
 }
 
 @media (min-width: 1210px) {
@@ -526,6 +559,14 @@
 
     .hours-image-container {
         transform: translateX(65px);
+    }
+
+    .contact {
+        max-width: 1000px;
+    }
+
+    .contact-content {
+        margin-bottom: 80px;
     }
 
     .footer-nav-effect:hover {
