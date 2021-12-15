@@ -28,14 +28,7 @@
     }
 
     .page-headers,
-    .cosmology-text,
-    .evolution-text,
-    .teacher-text-1,
-    .teacher-text-2,
-    .support-text,
-    .volunteer-text,
-    .internship-text,
-    .submit-text {
+    .text {
         margin: auto;
     }
 
