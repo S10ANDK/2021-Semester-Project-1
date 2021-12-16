@@ -548,6 +548,7 @@
 
     .professor-text {
         margin: 200px auto;
+        transform: translateX(50px);
     }
 
     .night-museum__image {
