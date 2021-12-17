@@ -138,7 +138,7 @@ nav a {
     transition: 0.2s ease-out;
 }
 
-.nav-icon:before {
+.nav-icon::before {
     background: #000;
     content: "";
     display: block;
@@ -149,7 +149,7 @@ nav a {
     top: 8px;
 }
 
-.nav-icon:after {
+.nav-icon::after {
     background: #000;
     content: "";
     display: block;
@@ -173,11 +173,11 @@ nav a {
 .menu-button:checked ~ .menu-icon .nav-icon {
     background: transparent;
 }
-.menu-button:checked ~ .menu-icon .nav-icon:before {
+.menu-button:checked ~ .menu-icon .nav-icon::before {
     top: 0;
     transform: rotate(-45deg);
 }
-.menu-button:checked ~ .menu-icon .nav-icon:after {
+.menu-button:checked ~ .menu-icon .nav-icon::after {
     top: 0;
     transform: rotate(45deg);
 
