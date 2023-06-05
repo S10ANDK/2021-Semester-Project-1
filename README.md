@@ -21,8 +21,7 @@ Built With
 
 Website Link
 
-https://vigilant-bhabha-656da5.netlify.app/html/explore.html
-
+https://comsciencemuseum.netlify.app
 
 Contact
 
